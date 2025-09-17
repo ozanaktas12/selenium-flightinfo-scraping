@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.idea/
+.DS_Store
+
+# Çalışma çıktıları
+ucus_sonuclari.json
+debug_*.png
+debug_*.html
+EOF
